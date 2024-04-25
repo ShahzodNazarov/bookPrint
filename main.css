@@ -1,0 +1,47 @@
+
+
+#div{
+ width: 400px;
+ height: 300px;
+ border: 1px solid ;
+ margin: 100px auto;
+ padding: 5px;
+ border-radius: 5px;
+ display: flex;
+ justify-content: baseline;
+ flex-direction: column;
+ gap: 5px;
+}
+
+#div2{
+    display: flex;
+    border: 2px solid red;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-white { 
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+body{
+   background-image: url(./book3.webp);
+}
+.show{
+    /* background-color:darkblue; */
+}
+#write1{
+   /* background-color:mediumblue;  */
+   
+}
+#rowScroll{
+   overflow-y: scroll;
+   max-height: 400px;
+   width: 300px;
+}
